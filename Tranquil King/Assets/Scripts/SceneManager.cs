@@ -185,10 +185,10 @@ public class SceneManager : MonoBehaviour
         }
 
         //__________________________________________Speaker Text
-        if (sceneToDisplay.speakerText != "")
+        if (sceneToDisplay.speaker != "")
         {
-            textController.ChangeSpeaker(sceneToDisplay.speakerText);
-            print("Speaker text: changed to " + sceneToDisplay.speakerText);
+            textController.ChangeSpeaker(sceneToDisplay.speaker);
+            print("Speaker text: changed to " + sceneToDisplay.speaker);
         }
         //If value is empty, make no change
         else
@@ -209,63 +209,45 @@ public class SceneManager : MonoBehaviour
         }
 
         //__________________________________________Button 1
-        if (sceneToDisplay.button1Text != "")
-            //if value is "hidebutton", remove text and hide the button
-            if (sceneToDisplay.button1Text == "hidebutton")
-            {
-                buttonController.ChangeButton(0, false, " ");
-                print("Button1: removed.");
-            }
-            //display button with text
-            else
-            {
-                buttonController.ChangeButton(0, true, sceneToDisplay.button1Text);
-                print("Button1: changed to " + sceneToDisplay.button1Text);
-            }        
-        //If value is empty, make no change
+        if (sceneToDisplay.button1Text == "")
+        //if value is empty, remove text and hide the button
+        {
+            buttonController.ChangeButton(0, false, " ");
+            print("Button1: removed.");
+        }
+        //display button with text
         else
         {
-            print("Button1: no change.");
+            buttonController.ChangeButton(0, true, sceneToDisplay.button1Text);
+            print("Button1: changed to " + sceneToDisplay.button1Text);
         }
 
         //__________________________________________Button 2
-        if (sceneToDisplay.button2Text != "")
-            //if value is "hidebutton", remove text and hide the button
-            if (sceneToDisplay.button2Text == "hidebutton")
-            {
-                buttonController.ChangeButton(1, false, " ");
-                print("Button2: removed.");
-            }
-            //display button with text
-            else
-            {
-                buttonController.ChangeButton(1, true, sceneToDisplay.button2Text);
-                print("Button2: changed to " + sceneToDisplay.button2Text);
-            }
-        //If value is empty, make no change
+        if (sceneToDisplay.button2Text == "")
+        //if value is empty, remove text and hide the button
+        {
+            buttonController.ChangeButton(1, false, " ");
+            print("Button2: removed.");
+        }
+        //display button with text
         else
         {
-            print("Button2: no change.");
+            buttonController.ChangeButton(1, true, sceneToDisplay.button2Text);
+            print("Button2: changed to " + sceneToDisplay.button2Text);
         }
 
         //__________________________________________Button 3
-        if (sceneToDisplay.button3Text != "")
-            //if value is "hidebutton", remove text and hide the button
-            if (sceneToDisplay.button3Text == "hidebutton")
-            {
-                buttonController.ChangeButton(2, false, " ");
-                print("Button3: removed.");
-            }
-            //display button with text
-            else
-            {
-                buttonController.ChangeButton(2, true, sceneToDisplay.button3Text);
-                print("Button3: changed to " + sceneToDisplay.button3Text);
-            }
-        //If value is empty, make no change
+        if (sceneToDisplay.button3Text == "")
+        //if value is empty, remove text and hide the button
+        {
+            buttonController.ChangeButton(2, false, " ");
+            print("Button3: removed.");
+        }
+        //display button with text
         else
         {
-            print("Button3: no change.");
+            buttonController.ChangeButton(2, true, sceneToDisplay.button3Text);
+            print("Button3: changed to " + sceneToDisplay.button3Text);
         }
     }
 }

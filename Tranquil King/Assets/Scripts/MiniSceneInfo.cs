@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MiniSceneInfo : MonoBehaviour
 {
-    public string speakerText;
+    public string speaker;
     public string spokenText;
     [Header("'hidebutton' to remove a button")]
     public string button1Text;
