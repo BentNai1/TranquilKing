@@ -185,31 +185,31 @@ public class SceneManager : MonoBehaviour
         }
 
         //__________________________________________Speaker Text
-        if (sceneToDisplay.speakerText != null)
+        if (sceneToDisplay.speakerText != "")
         {
             textController.ChangeSpeaker(sceneToDisplay.speakerText);
             print("Speaker text: changed to " + sceneToDisplay.speakerText);
         }
-        //If value is null, make no change
+        //If value is empty, make no change
         else
         {
             print("Speaker text: no change.");
         }
 
         //__________________________________________Spoken Text
-        if (sceneToDisplay.spokenText != null)
+        if (sceneToDisplay.spokenText != "")
         {
             textController.ChangeSpeakingText(sceneToDisplay.spokenText);
             print("Spoken text: changed to " + sceneToDisplay.spokenText);
         }
-        //If value is null, make no change
+        //If value is empty, make no change
         else
         {
             print("Spoken text: no change.");
         }
 
         //__________________________________________Button 1
-        if (sceneToDisplay.button1Text != null)
+        if (sceneToDisplay.button1Text != "")
             //if value is "hidebutton", remove text and hide the button
             if (sceneToDisplay.button1Text == "hidebutton")
             {
@@ -222,14 +222,14 @@ public class SceneManager : MonoBehaviour
                 buttonController.ChangeButton(0, true, sceneToDisplay.button1Text);
                 print("Button1: changed to " + sceneToDisplay.button1Text);
             }        
-        //If value is null, make no change
+        //If value is empty, make no change
         else
         {
             print("Button1: no change.");
         }
 
         //__________________________________________Button 2
-        if (sceneToDisplay.button2Text != null)
+        if (sceneToDisplay.button2Text != "")
             //if value is "hidebutton", remove text and hide the button
             if (sceneToDisplay.button2Text == "hidebutton")
             {
@@ -242,14 +242,14 @@ public class SceneManager : MonoBehaviour
                 buttonController.ChangeButton(1, true, sceneToDisplay.button2Text);
                 print("Button2: changed to " + sceneToDisplay.button2Text);
             }
-        //If value is null, make no change
+        //If value is empty, make no change
         else
         {
             print("Button2: no change.");
         }
 
         //__________________________________________Button 3
-        if (sceneToDisplay.button3Text != null)
+        if (sceneToDisplay.button3Text != "")
             //if value is "hidebutton", remove text and hide the button
             if (sceneToDisplay.button3Text == "hidebutton")
             {
@@ -262,7 +262,7 @@ public class SceneManager : MonoBehaviour
                 buttonController.ChangeButton(2, true, sceneToDisplay.button3Text);
                 print("Button3: changed to " + sceneToDisplay.button3Text);
             }
-        //If value is null, make no change
+        //If value is empty, make no change
         else
         {
             print("Button3: no change.");

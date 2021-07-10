@@ -9,7 +9,7 @@ public class ButtonController : MonoBehaviour
 
     public void ChangeButton(int WhichButton, bool stateIsOn, string buttonText)
     {
-        button[WhichButton].enabled = stateIsOn;
+        button[WhichButton].gameObject.SetActive(stateIsOn);
         button[WhichButton].GetComponentInChildren<Text>().text = buttonText;
     }
 }

@@ -6,6 +6,7 @@ public class MiniSceneInfo : MonoBehaviour
 {
     public string speakerText;
     public string spokenText;
+    [Header("'hidebutton' to remove a button")]
     public string button1Text;
     public string button2Text;
     public string button3Text;
