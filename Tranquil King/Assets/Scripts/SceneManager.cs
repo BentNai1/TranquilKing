@@ -12,6 +12,7 @@ public class SceneManager : MonoBehaviour
 
     private MiniSceneInfo sceneToDisplay;
     private MiniSceneInfo previousScene;
+    private MiniSceneInfo nextScene;
 
     private int currentMainSceneNum;
 
@@ -39,7 +40,11 @@ public class SceneManager : MonoBehaviour
         buttonController = ButtonsObject.GetComponent<ButtonController>();
         textController = TextObject.GetComponent<TextController>();
 
-        DisplayScene(firstScene);
+
+        //_________________________________________ Turn on first scene
+        previousScene = firstScene;
+        sceneToDisplay = firstScene;
+        DisplayScene();
     }
 
 
@@ -48,19 +53,92 @@ public class SceneManager : MonoBehaviour
         
     }
 
-    public void DisplayScene(MiniSceneInfo otherMiniInfo)
+    public void BackButtonPress()
     {
-        //____________________________________________Set previous scene for back button interaction
-        otherMiniInfo.previousScene = sceneToDisplay;
+        //____________________________________________Go back a scene after pushing back button
+        sceneToDisplay = sceneToDisplay.previousScene;
+        previousScene = sceneToDisplay.previousScene;
+        DisplayScene();
+    }
+
+    public void CheckNextSceneButtonPress(int whichButton0_Simp1_Norm2_Dom)
+    {
+        //____________________________________________Save previous scene for back button interaction ?
         previousScene = sceneToDisplay;
+        
 
-        //____________________________________________Set current scene
-        sceneToDisplay = otherMiniInfo;
+        //____________________________________________Set next scene based on button pressed - default to another option if non was set.
+        if (whichButton0_Simp1_Norm2_Dom == 0)
+        {
+            if (sceneToDisplay.nextSceneSimp != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneSimp;
+            }
+            else if (sceneToDisplay.nextSceneNorm != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneNorm;
+            }
+            else if (sceneToDisplay.nextSceneDom != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneDom;
+            }
+            else
+            {
+                print("Error! There is no scene connected to the current one.");
+            }
+        }
 
+        if (whichButton0_Simp1_Norm2_Dom == 1)
+        {
+            if (sceneToDisplay.nextSceneNorm != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneNorm;
+            }
+            else if (sceneToDisplay.nextSceneDom != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneDom;
+            }
+            else if (sceneToDisplay.nextSceneSimp != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneSimp;
+            }
+            else
+            {
+                print("Error! There is no scene connected to the current one.");
+            }
+        }
+
+        if (whichButton0_Simp1_Norm2_Dom == 2)
+        {
+            if (sceneToDisplay.nextSceneDom != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneDom;
+            }
+            else if (sceneToDisplay.nextSceneSimp != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneSimp;
+            }
+            else if (sceneToDisplay.nextSceneNorm != null)
+            {
+                sceneToDisplay = sceneToDisplay.nextSceneNorm;
+            }
+            else
+            {
+                print("Error! There is no scene connected to the current one.");
+            }
+        }
+
+        //____________________________________________Pass saved previous scene to new current scene
+        sceneToDisplay.previousScene = previousScene;
+
+        DisplayScene();
+    }
+
+    public void DisplayScene()
+    {
         //____________________________________________Change visual elements to match scene info
-
-
-        //___________________________________________KingSprite
+        //...
+        //____________________________________________KingSprite
         if(sceneToDisplay.kingSpriteNumber != 0)
         {
             //If number is bigger than ammount of sprites in array, show no sprite.
