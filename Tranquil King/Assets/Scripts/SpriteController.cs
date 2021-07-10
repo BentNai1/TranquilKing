@@ -9,13 +9,7 @@ public class SpriteController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i =0; i < spriteToChange.Length; i++)
-        {
-            SpriteRenderer spriteTemp = spriteToChange[i].GetComponent<SpriteRenderer>();
-            spriteTemp.enabled = false;
-        }
 
-        ChangeSprite(1);
     }
 
     // Update is called once per frame
@@ -26,13 +20,18 @@ public class SpriteController : MonoBehaviour
 
     public void ChangeSprite(int spriteNumber)
     {
+        ClearSprites();
+
+        SpriteRenderer activeSprite = spriteToChange[spriteNumber].GetComponent<SpriteRenderer>();
+        activeSprite.enabled = true;
+    }
+
+    public void ClearSprites()
+    {
         for (int i = 0; i < spriteToChange.Length; i++)
         {
             SpriteRenderer spriteTemp = spriteToChange[i].GetComponent<SpriteRenderer>();
             spriteTemp.enabled = false;
         }
-
-        SpriteRenderer activeSprite = spriteToChange[spriteNumber].GetComponent<SpriteRenderer>();
-        activeSprite.enabled = true;
     }
 }
