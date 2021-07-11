@@ -1441,7 +1441,7 @@ MonoBehaviour:
   button1Text: Enter Tent
   button2Text: 
   button3Text: 
-  backgroundNumber: 0
+  backgroundNumber: 1
   kingSpriteNumber: 12
   nextSceneSimp: {fileID: 0}
   nextSceneNorm: {fileID: 0}
@@ -1660,6 +1660,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1532132270}
+  - {fileID: 1490444405}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1675,7 +1676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7e26a992395f34eaa9696500c5dc4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteToChange: []
+  spriteToChange:
+  - {fileID: 1532132268}
+  - {fileID: 1490444403}
 --- !u!1 &739093945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,7 +1728,7 @@ MonoBehaviour:
   button1Text: I accept!
   button2Text: 
   button3Text: 
-  backgroundNumber: 0
+  backgroundNumber: 1
   kingSpriteNumber: 5
   nextSceneSimp: {fileID: 917275311}
   nextSceneNorm: {fileID: 0}
@@ -3362,6 +3365,87 @@ Transform:
   m_Father: {fileID: 1107497104}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1490444403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1490444405}
+  - component: {fileID: 1490444404}
+  m_Layer: 0
+  m_Name: TentBackground(1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1490444404
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490444403}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_Sprite: {fileID: 21300000, guid: 63d190b7834cfc94e8e1c37d18975c8a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1490444405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490444403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.88891494, y: 0.87721425, z: 2.6929436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 692920286}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1497125226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,7 +3555,7 @@ GameObject:
   - component: {fileID: 1532132270}
   - component: {fileID: 1532132269}
   m_Layer: 0
-  m_Name: DefaultBackground
+  m_Name: DefaultBackground(nochange)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
