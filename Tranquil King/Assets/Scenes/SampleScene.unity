@@ -282,6 +282,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &191890432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 191890433}
+  - component: {fileID: 191890434}
+  m_Layer: 0
+  m_Name: Why HELLO there, good looking.
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &191890433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191890432}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1456401924}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &191890434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191890432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: ' '
+  spokenText: Why HELLO there, good looking.
+  button1Text: 
+  button2Text: 
+  button3Text: 
+  backgroundNumber: 0
+  kingSpriteNumber: 9
+  nextSceneSimp: {fileID: 0}
+  nextSceneNorm: {fileID: 0}
+  nextSceneDom: {fileID: 0}
+  previousScene: {fileID: 0}
 --- !u!1 &201710967
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: King Dionysus
   spokenText: "Welcome brave knight\u2026  *winks*  Thank you for leading my army
     to victory, I am glad to have such a strong ally\u2026 "
   button1Text: I am honored to be in your presence, my king.
@@ -515,8 +569,8 @@ MonoBehaviour:
   speaker: 
   spokenText: And I have a crush on you noble knight.
   button1Text: "P-perhaps, you and I should go somewhere\u2026 just the two of us?"
-  button2Text: 2
-  button3Text: 3
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 3
   nextSceneSimp: {fileID: 739093947}
@@ -570,7 +624,7 @@ MonoBehaviour:
   spokenText: 'The king has decided to honor you and has brought you to his *private
     chambers* to speak about the victory. The very man you have admired for years.
     Do you think you have a chance with the king? '
-  button1Text: Proceed.
+  button1Text: Accept the invitation.
   button2Text: 
   button3Text: 
   backgroundNumber: 0
@@ -625,8 +679,8 @@ MonoBehaviour:
   speaker: 
   spokenText: '*The King suddenly looks away, and he looks nervous*'
   button1Text: My liege? Did I say something wrong?
-  button2Text: 2
-  button3Text: 3
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 1
   nextSceneSimp: {fileID: 2091353583}
@@ -711,6 +765,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425552939}
   m_CullTransparentMesh: 0
+--- !u!1 &488268762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488268763}
+  - component: {fileID: 488268764}
+  m_Layer: 0
+  m_Name: Ah. I should have known.(fail)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488268763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488268762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2060329555}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488268764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488268762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: 
+  spokenText: Ah. I should have known.
+  button1Text: 
+  button2Text: 
+  button3Text: 
+  backgroundNumber: 0
+  kingSpriteNumber: 2
+  nextSceneSimp: {fileID: 0}
+  nextSceneNorm: {fileID: 0}
+  nextSceneDom: {fileID: 0}
+  previousScene: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,6 +830,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -737,6 +846,102 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!82 &519420030
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0c7b7f14833294b4f94ea11b858feb70, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -825,6 +1030,60 @@ Transform:
   m_Father: {fileID: 1142900762}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &581213917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581213918}
+  - component: {fileID: 581213919}
+  m_Layer: 0
+  m_Name: Bah... Leave me. I've had enough of you. (fail)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581213918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581213917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1287872331}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &581213919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581213917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: 
+  spokenText: Bah... Leave me. I've had enough of you.
+  button1Text: 
+  button2Text: 
+  button3Text: 
+  backgroundNumber: 0
+  kingSpriteNumber: 6
+  nextSceneSimp: {fileID: 0}
+  nextSceneNorm: {fileID: 0}
+  nextSceneDom: {fileID: 0}
+  previousScene: {fileID: 0}
 --- !u!1 &585812419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,6 +1332,7 @@ Transform:
   - {fileID: 1805026566}
   - {fileID: 612170728}
   - {fileID: 1168107051}
+  - {fileID: 1414519838}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1098,6 +1358,7 @@ MonoBehaviour:
   - {fileID: 1805026565}
   - {fileID: 612170727}
   - {fileID: 1168107050}
+  - {fileID: 1414519836}
 --- !u!1 &631851958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,14 +1435,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: ' '
   spokenText: "You enter the nobles campgrounds, and walk into the King\u2019s quarters.
     There is the most beautiful man you have ever seen \u2026 KING DIONYSUS."
   button1Text: Enter Tent
   button2Text: 
   button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 0
+  kingSpriteNumber: 12
   nextSceneSimp: {fileID: 0}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 280519602}
@@ -1271,7 +1532,7 @@ GameObject:
   - component: {fileID: 678615126}
   - component: {fileID: 678615127}
   m_Layer: 0
-  m_Name: You flatter me!
+  m_Name: "It is hard, the throne can be so lonely at times\u2026"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,15 +1565,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: 
-  spokenText: '*King Dionysus blushes* King Dionysus: You flatter me! But seriously,
-    you have nothing else you want to ask of me? '
-  button1Text: "My king, if I may\u2026 What will you do now that the war is over? "
-  button2Text: 2
-  button3Text: 3
+  spokenText: "It is hard, the throne can be so lonely at times\u2026"
+  button1Text: '*Embrace the king in a gentle hug.* We all get lonely at times, but
+    I am here for you.'
+  button2Text: Yea you look lonely to be honest.
+  button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 4
-  nextSceneSimp: {fileID: 948246213}
-  nextSceneNorm: {fileID: 0}
+  kingSpriteNumber: 6
+  nextSceneSimp: {fileID: 1609459841}
+  nextSceneNorm: {fileID: 948246213}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
 --- !u!1 &686362096
@@ -1461,7 +1722,7 @@ MonoBehaviour:
   speaker: 
   spokenText: I would like that very much. It is decided, I decree that you and I
     will go on a date!
-  button1Text: '*Congrats you won, go to the Finale!*'
+  button1Text: I accept!
   button2Text: 
   button3Text: 
   backgroundNumber: 0
@@ -1610,7 +1871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760969567}
   m_Layer: 0
-  m_Name: Sequence2(Normal)
+  m_Name: Sequence5(Normal)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,8 +1890,6 @@ Transform:
   m_Children:
   - {fileID: 678615126}
   - {fileID: 948246212}
-  - {fileID: 1675710405}
-  - {fileID: 1184485392}
   m_Father: {fileID: 1266112405}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1899,8 +2158,8 @@ MonoBehaviour:
     I feel that I am not\u2026 "
   button1Text: "I am sorry\u2026 But you should not feel any anxiety! Everyone Loves
     you as a ruler! I love y-! Oh excuse me I-"
-  button2Text: (Sequence5)
-  button3Text: (Sequence6)
+  button2Text: My liege, please do not be sad!
+  button3Text: Please stop it!
   backgroundNumber: 0
   kingSpriteNumber: 6
   nextSceneSimp: {fileID: 1933043691}
@@ -1953,12 +2212,12 @@ MonoBehaviour:
   speaker: ' '
   spokenText: The King takes you to an all inclusive french resort! Perhaps this
     will lead to something more? ;)
-  button1Text: 
+  button1Text: Sweet!
   button2Text: 
   button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 5
-  nextSceneSimp: {fileID: 0}
+  kingSpriteNumber: 12
+  nextSceneSimp: {fileID: 191890434}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
@@ -1973,7 +2232,7 @@ GameObject:
   - component: {fileID: 948246212}
   - component: {fileID: 948246213}
   m_Layer: 0
-  m_Name: I think I might pursue my leisures.
+  m_Name: Hmmph. And perhaps I ought to stay that way.(fail)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2006,14 +2265,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: 
-  spokenText: "Hmmm, once things are all sorted diplomatically, I think I might pursue
-    my leisures. Being king can be lonely\u2026"
-  button1Text: P-perhaps I can ease your loneliness?
-  button2Text: 2
-  button3Text: 3
+  spokenText: Hmmph. And perhaps I ought to stay that way.
+  button1Text: 
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 8
-  nextSceneSimp: {fileID: 1675710406}
+  kingSpriteNumber: 2
+  nextSceneSimp: {fileID: 0}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
@@ -2047,10 +2305,68 @@ Transform:
   - {fileID: 1870545489}
   - {fileID: 1334735712}
   - {fileID: 2030022859}
-  - {fileID: 1223808691}
   m_Father: {fileID: 1107497104}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &973480808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 973480809}
+  - component: {fileID: 973480810}
+  m_Layer: 0
+  m_Name: "W-why you should know your place then soldier, nobody dares speak to me
+    so aggressively. I kind of like it. To be treated like a normal person and not
+    a pompous royal\u2026 "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &973480809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973480808}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1326136091}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &973480810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973480808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: 
+  spokenText: "W-why you should know your place then soldier, nobody dares speak
+    to me so aggressively. I kind of like it. To be treated like a normal person
+    and not a pompous royal\u2026 "
+  button1Text: 
+  button2Text: 
+  button3Text: It is my opinion that being straightforward and honest is the best
+    way to approach someone.
+  backgroundNumber: 0
+  kingSpriteNumber: 3
+  nextSceneSimp: {fileID: 0}
+  nextSceneNorm: {fileID: 0}
+  nextSceneDom: {fileID: 0}
+  previousScene: {fileID: 0}
 --- !u!1 &1002270713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,8 +2414,8 @@ MonoBehaviour:
   spokenText: "Hmmm, once things are all sorted diplomatically, I think I might pursue
     my leisures. Being king can be lonely\u2026"
   button1Text: P-perhaps I can ease your loneliness?
-  button2Text: 2
-  button3Text: 3
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 8
   nextSceneSimp: {fileID: 2034090871}
@@ -2153,8 +2469,8 @@ MonoBehaviour:
   spokenText: You have my permission.
   button1Text: My king, how does one become such a great ruler? Loved by all his
     subjects?
-  button2Text: (Sequence2)
-  button3Text: (Sequence3)
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 8
   nextSceneSimp: {fileID: 1404585743}
@@ -2191,6 +2507,7 @@ Transform:
   - {fileID: 1485499478}
   - {fileID: 828897050}
   - {fileID: 968161379}
+  - {fileID: 1326136091}
   m_Father: {fileID: 1142900762}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2554,114 +2871,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1184485391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1184485392}
-  - component: {fileID: 1184485393}
-  m_Layer: 0
-  m_Name: "No, no I like that\u2026"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1184485392
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184485391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 760969567}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1184485393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184485391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speaker: 
-  spokenText: "No, no I like that\u2026 You are very sweet...cute..."
-  button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
-  backgroundNumber: 0
-  kingSpriteNumber: 5
-  nextSceneSimp: {fileID: 0}
-  nextSceneNorm: {fileID: 0}
-  nextSceneDom: {fileID: 0}
-  previousScene: {fileID: 0}
---- !u!1 &1223808690
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1223808691}
-  - component: {fileID: 1223808692}
-  m_Layer: 0
-  m_Name: "No, no I like that\u2026"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1223808691
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223808690}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 968161379}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1223808692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223808690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speaker: 
-  spokenText: "No, no I like that\u2026 You are very sweet...cute..."
-  button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
-  backgroundNumber: 0
-  kingSpriteNumber: 5
-  nextSceneSimp: {fileID: 0}
-  nextSceneNorm: {fileID: 0}
-  nextSceneDom: {fileID: 0}
-  previousScene: {fileID: 0}
 --- !u!1 &1266112404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,6 +2901,7 @@ Transform:
   - {fileID: 631851959}
   - {fileID: 2060329555}
   - {fileID: 760969567}
+  - {fileID: 1287872331}
   m_Father: {fileID: 1142900762}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2751,6 +2961,70 @@ MonoBehaviour:
   - {fileID: 1846208618}
   - {fileID: 739318785}
   - {fileID: 585812421}
+--- !u!1 &1287872330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287872331}
+  m_Layer: 0
+  m_Name: Sequence6(Dom)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287872331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287872330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2014571108}
+  - {fileID: 581213918}
+  m_Father: {fileID: 1266112405}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1326136090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326136091}
+  m_Layer: 0
+  m_Name: Sequence3(Dom)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326136091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326136090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1612018985}
+  - {fileID: 973480809}
+  m_Father: {fileID: 1107497104}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1334735711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2762,7 +3036,7 @@ GameObject:
   - component: {fileID: 1334735712}
   - component: {fileID: 1334735713}
   m_Layer: 0
-  m_Name: I think I might pursue my leisures.
+  m_Name: I see, just the two of us.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2795,11 +3069,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: 
-  spokenText: "Hmmm, once things are all sorted diplomatically, I think I might pursue
-    my leisures. Being king can be lonely\u2026"
-  button1Text: P-perhaps I can ease your loneliness?
-  button2Text: 2
-  button3Text: 3
+  spokenText: I see, just the two of us hmmm. I suppose a reward is needed to mark
+    this glorious occasion.
+  button1Text: 
+  button2Text: Being with you is reward enough.
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 8
   nextSceneSimp: {fileID: 2030022860}
@@ -2853,14 +3127,95 @@ MonoBehaviour:
   spokenText: '*King Dionysus blushes* King Dionysus: You flatter me! But seriously,
     you have nothing else you want to ask of me? '
   button1Text: "My king, if I may\u2026 What will you do now that the war is over? "
-  button2Text: 2
-  button3Text: 3
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 4
   nextSceneSimp: {fileID: 1002270715}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
+--- !u!1 &1414519836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414519838}
+  - component: {fileID: 1414519837}
+  m_Layer: 0
+  m_Name: KingSprite9(Win)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1414519837
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414519836}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1bb2f7d4dc0cec14d8655307cf49bfbd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.31, y: 4.73}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1414519838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414519836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 626286407}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1448579302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,6 +3325,7 @@ Transform:
   - {fileID: 287936662}
   - {fileID: 739093946}
   - {fileID: 917275310}
+  - {fileID: 191890433}
   m_Father: {fileID: 521559428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3049,13 +3405,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: ' '
   spokenText: '*Sounds of Battle*'
   button1Text: To victory!
   button2Text: 
   button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 10
+  kingSpriteNumber: 12
   nextSceneSimp: {fileID: 0}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 1731235556}
@@ -3232,15 +3588,15 @@ MonoBehaviour:
   spokenText: "You are a sly dog. I haven\u2019t felt butterflies like this in quite
     a while\u2026 "
   button1Text: "I-I feel the same way\u2026 I have a crush on you!"
-  button2Text: 2
-  button3Text: 3
+  button2Text: My king, I am honored to have met you!
+  button3Text: I am glad things have gone this way.
   backgroundNumber: 0
   kingSpriteNumber: 1
   nextSceneSimp: {fileID: 287936663}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
---- !u!1 &1675710404
+--- !u!1 &1612018984
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3248,49 +3604,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1675710405}
-  - component: {fileID: 1675710406}
+  - component: {fileID: 1612018985}
+  - component: {fileID: 1612018986}
   m_Layer: 0
-  m_Name: How forward!
+  m_Name: "Oh my! You\u2019re asking the king out just like that? Have you no decorum?"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1675710405
+--- !u!4 &1612018985
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675710404}
+  m_GameObject: {fileID: 1612018984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 760969567}
-  m_RootOrder: 2
+  m_Father: {fileID: 1326136091}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1675710406
+--- !u!114 &1612018986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675710404}
+  m_GameObject: {fileID: 1612018984}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
-  spokenText: Oh! How forward of you!
-  button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
+  speaker: King Dionysus
+  spokenText: "Oh my! You\u2019re asking the king out just like that? Have you no
+    decorum?"
+  button1Text: 
+  button2Text: 
+  button3Text: "No, my liege I am a simple soldier, and I know what I want. It\u2019s
+    you."
   backgroundNumber: 0
   kingSpriteNumber: 4
-  nextSceneSimp: {fileID: 1184485393}
+  nextSceneSimp: {fileID: 973480810}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
@@ -3337,11 +3695,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
-  spokenText: "No, no I like that\u2026 You are very sweet...cute..."
-  button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
+  speaker: King Dionysus
+  spokenText: "No, no I like that\u2026  You are very sweet...cute... "
+  button1Text: '*Return the smile*'
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 5
   nextSceneSimp: {fileID: 357437999}
@@ -3394,7 +3752,7 @@ MonoBehaviour:
   speaker: 
   spokenText: "You have successfully led the King\u2019s army against the barbarian
     forces! With this major success surely an age of tranquility and peace will arise."
-  button1Text: Proceed.
+  button1Text: Let's bring our people home.
   button2Text: 
   button3Text: 
   backgroundNumber: 0
@@ -3706,7 +4064,7 @@ GameObject:
   - component: {fileID: 1870545489}
   - component: {fileID: 1870545490}
   m_Layer: 0
-  m_Name: You flatter me!
+  m_Name: You and I?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3738,14 +4096,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speaker: 
-  spokenText: '*King Dionysus blushes* King Dionysus: You flatter me! But seriously,
-    you have nothing else you want to ask of me? '
-  button1Text: "My king, if I may\u2026 What will you do now that the war is over? "
-  button2Text: 2
-  button3Text: 3
+  speaker: King Dionysus
+  spokenText: "Oh, you and I? You must mean with the army and the logistics\u2026"
+  button1Text: 
+  button2Text: No, I meant you and I, my liege.
+  button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 4
+  kingSpriteNumber: 3
   nextSceneSimp: {fileID: 1334735713}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
@@ -3872,9 +4229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*Blush uncontrollably*
-
-'
+  m_Text: '*Blush uncontrollably*'
 --- !u!222 &1928255490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3930,11 +4285,11 @@ MonoBehaviour:
   spokenText: Y-You love me?
   button1Text: '*BLUSHES UNCONTROLLABLY*'
   button2Text: No! I meant to say, I HATE YOU! Yeah!
-  button3Text: 3
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 4
   nextSceneSimp: {fileID: 1609459841}
-  nextSceneNorm: {fileID: 0}
+  nextSceneNorm: {fileID: 488268764}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
 --- !u!1 &1988308380
@@ -4148,6 +4503,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2014571107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014571108}
+  - component: {fileID: 2014571109}
+  m_Layer: 0
+  m_Name: Huh!? H- How dare you! Why did you yell at me?
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014571108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014571107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1287872331}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014571109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014571107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a300e0c04a75f3241967b7e678dd8c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: 
+  spokenText: Huh!? H- How dare you! Why did you yell at me?
+  button1Text: "Cause you\u2019re whining like a little baby."
+  button2Text: It is because you know not your own self worth! But I, and everyone
+    can see it plain as day!
+  button3Text: 
+  backgroundNumber: 0
+  kingSpriteNumber: 2
+  nextSceneSimp: {fileID: 581213919}
+  nextSceneNorm: {fileID: 1609459841}
+  nextSceneDom: {fileID: 0}
+  previousScene: {fileID: 0}
 --- !u!1 &2030022858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4159,7 +4569,7 @@ GameObject:
   - component: {fileID: 2030022859}
   - component: {fileID: 2030022860}
   m_Layer: 0
-  m_Name: How forward!
+  m_Name: Your words are simple yet kind.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4192,13 +4602,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: 
-  spokenText: Oh! How forward of you!
-  button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
+  spokenText: Your words are simple yet kind.
+  button1Text: 
+  button2Text: '*Smile in return*'
+  button3Text: 
   backgroundNumber: 0
-  kingSpriteNumber: 4
-  nextSceneSimp: {fileID: 1223808692}
+  kingSpriteNumber: 7
+  nextSceneSimp: {fileID: 357437999}
   nextSceneNorm: {fileID: 0}
   nextSceneDom: {fileID: 0}
   previousScene: {fileID: 0}
@@ -4248,8 +4658,8 @@ MonoBehaviour:
   speaker: 
   spokenText: Oh! How forward of you!
   button1Text: "I-I\u2019m sorry if that was too much..."
-  button2Text: 2
-  button3Text: 3
+  button2Text: 
+  button3Text: 
   backgroundNumber: 0
   kingSpriteNumber: 4
   nextSceneSimp: {fileID: 1717776372}
@@ -4284,6 +4694,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1933043690}
+  - {fileID: 488268763}
   m_Father: {fileID: 1266112405}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
